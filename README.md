@@ -42,7 +42,7 @@ A console-based C++ application that reads a grocery-list text file, tallies ite
 
 2. **Security & Robustness**  
    - **Current:** Assumes the input file is well-formed and doesn't guard against different file paths or unclean data.  
-   - **Improvement:** Validate file paths, handle exceptions more granularly, account for unclean data, and sanitize user inputs to prevent misuse or crashes on bad data.
+   - **Improvement:** Validate file paths, handle exceptions more granularly, account for unclean data, and verify user inputs to prevent misuse or crashes on bad data.
 
 3. **Extensibility**  
    - **Current:** Limited to text-file input and simple console output.  
